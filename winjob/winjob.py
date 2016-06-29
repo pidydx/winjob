@@ -297,10 +297,12 @@ class BinaryScheduledTask(object):
         0x0400: "Windows NT 4.0",
         0x0500: "Windows 2000",
         0x0501: "Windows XP",
-        0x0600: "Windows Vista",
+        0x0502: "Windows Server 2003",
+        0x0600: "Windows Vista/Server 2008",
         0x0601: "Windows 7",
         0x0602: "Windows 8",
-        0x0603: "Windows 8.1"
+        0x0603: "Windows 8.1",
+        0x0a00: "Windows 10"
     }
 
     FILE_VERSIONS = {
